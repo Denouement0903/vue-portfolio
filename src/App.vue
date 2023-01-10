@@ -1,18 +1,22 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+    <Navbar/>
   <router-view/>
 </template>
 
+<script>
+import Navbar from './components/Navbar.vue';
+export default {
+    components: {
+      Navbar
+    }
+}
+</script>
+
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Rowdies', cursive;
   text-align: center;
-  color: #2c3e50;
+  color: #b30e02;
 }
 
 nav {
@@ -21,16 +25,19 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #7eb7f0;
 }
 
 nav a.router-link-exact-active {
-  color: #42b968;
+  color: #20de12;
 }
+
 body {
-  border-radius: 4px;
-  background: linear-gradient(225deg, #67bad6, #7addff);
-  box-shadow:  -25px 25px 50px #2e535f,
-               25px -25px 50px #b6ffff;
+  background-image: url("https://i.postimg.cc/Y0GJ67rR/DALL-E-2023-01-10-11-27-32-neon-Tokyo.png");
 }
+a:hover {
+  background: #0509fc;
+  border-radius: 15px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 </style>
