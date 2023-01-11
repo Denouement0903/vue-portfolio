@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>This is a testimonials page</p>
+
     </div>
 </template>
 <script>

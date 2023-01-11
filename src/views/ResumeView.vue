@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>This is a resume page</p>
+
     </div>
 </template>
 <script>
