@@ -37,10 +37,11 @@ nav a.router-link-exact-active {
 }
 
 body {
-  background-image: url("https://i.postimg.cc/Y0GJ67rR/DALL-E-2023-01-10-11-27-32-neon-Tokyo.png");
+  background-image: url("https://i.postimg.cc/c4xFqfnS/DALL-E-2023-01-12-11-54-06-neon-sunset-in-Cape-Town.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  object-fit: cover;
 
 }
 a:hover {

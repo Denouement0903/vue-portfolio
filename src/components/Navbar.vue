@@ -9,22 +9,22 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item p-3">
-                    <router-link  to="/">Home</router-link>
+                    <router-link style="text-decoration:none" to="/"><i class="fa-solid fa-house fa-fade m-1"></i>Home</router-link>
                   </li>
                   <li class="nav-item p-3">
-                    <router-link to="/about">About</router-link>
+                    <router-link style="text-decoration:none" to="/about"><i class="fa-solid fa-circle-info fa-bounce m-1"></i>About</router-link>
                   </li>
                   <li class="nav-item p-3">
-                    <router-link to="/resume">Resume</router-link>
+                    <router-link style="text-decoration:none" to="/resume"><i class="fa-solid fa-file fa-beat m-1"></i>Resume</router-link>
                   </li>
                   <li class="nav-item p-3">
-                    <router-link to="/projects">Projects</router-link>
+                    <router-link style="text-decoration:none" to="/projects"><i class="fa-solid fa-diagram-project fa-beat-fade m-1"></i>Projects</router-link>
                   </li>
                   <li class="nav-item p-3">
-                    <router-link to="/testimonials">Testimonials</router-link>
+                    <router-link style="text-decoration:none" to="/testimonials"><i class="fa-solid fa-people-group fa-flip m-1"></i>Testimonials</router-link>
                   </li>
                   <li class="nav-item p-3">
-                    <router-link to="/contact">Contact</router-link>
+                    <router-link style="text-decoration:none" to="/contact"><i class="fa-solid fa-address-card fa-shake m-1"></i>Contact</router-link>
                   </li>
                 </ul>
               </div>
