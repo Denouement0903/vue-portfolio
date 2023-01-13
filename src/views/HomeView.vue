@@ -9,18 +9,22 @@
     <div>
       <div class="row">
         <ul id="social_icons" class="list-unstyled d-flex align-content-center justify-content-center gap-5">
-          <li><a href="#"><i class="fa-brands fa-github fa-2x bg-black rounded"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-linkedin fa-2x bg-black rounded"></i></a></li>
-          <li><a href="#"><i class="fa-brands fa-twitter fa-2x bg-black rounded"></i></a></li>
+          <li class="text-primary m-1"><a href="https://github.com/Simp4Hitagi/vue-portfolio"><i class="fa-brands fa-github fa-2x rounded"></i></a>Github</li>
+          <li class="text-primary m-1"><a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin fa-2x rounded"></i></a>LinkedIn</li>
+          <li class="text-primary m-1"><a href=""><i class="fa-sharp fa-solid fa-2x fa-fire"></i></a>Firebase</li>
         </ul>
       </div>
     </div>
-
   </div>
+  <Footer/>
 </template>
 
 <script>
+import Footer from '@/components/Footer.vue';
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  components: {
+    Footer
+  }
 }
 </script>

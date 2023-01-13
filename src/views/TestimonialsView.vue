@@ -17,10 +17,15 @@
               </div>
         </div>
     </div>
+    <Footer/>
 </template>
 <script>
+import Footer from '@/components/Footer.vue';
 export default {
     name: 'testimonials',
+    components: {
+        Footer
+    },
     data(){
         return{
             testimonials: [
@@ -55,10 +60,10 @@ export default {
                     image: "https://i.postimg.cc/YSk6vFjk/Me-Profile.jpg"
                 },
                 {
-                    name: "",
-                    title: "",
-                    testimonial: "",
-                    image: ""
+                    name: "KonkeJeff RicardoMalindi",
+                    title: "Student",
+                    testimonial: "Deno is like a sponge, constantly absorbing knowledge and has a very keen interest in finding out the salution to a problem he has no idea how to solve,that is why in work space he would be a very resourceful asset",
+                    image: "https://i.postimg.cc/Gm9nTXgJ/DSC-3528.jpg"
                 }, 
                 {
                     name: "Cassidy Manuel",

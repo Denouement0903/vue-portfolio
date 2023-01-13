@@ -12,7 +12,7 @@
             Even so, I still enjoy sports and any outdoor activity just to be closer to nature.
           </p>
           <!-- button to services/form -->
-          <button type="button" class="btn btn-outline-dark my-3"><a href="#contact">Let's Talk</a></button>
+          <button type="button" class="btn btn-outline-dark my-3"><router-link style="text-decoration:none" to="/contact">Let's Talk</router-link></button>
             <!-- list group -->
             <h1 class="shadow">Personal Details</h1>
             <ul class="list-group border-2 border-dark list-unstyled gap-2">
@@ -25,4 +25,15 @@
           </div>
     </section>
   </div>
+  <Footer/>
 </template>
+<script>
+import Footer from '@/components/Footer.vue';
+export default{
+components: {
+  Footer
+}
+
+}
+
+</script>

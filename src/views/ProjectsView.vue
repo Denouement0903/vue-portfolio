@@ -13,10 +13,15 @@
               </div>
         </div>
     </div>
+    <Footer/>
 </template>
 <script>
+import Footer from '@/components/Footer.vue'
 export default {
     name: 'projects',
+    components: {
+        Footer
+    },
     data(){
         return{
             projectsArray: [
@@ -51,6 +56,14 @@ export default {
                     image: "https://i.postimg.cc/3Jk3TwkS/tribute-page.png",
                     netlify: "https://deno-tributepage.netlify.app",
                     github: "https://github.com/Simp4Hitagi/excercise"
+                },
+                {
+                    id: 5,
+                    name: "Vue Portfolio",
+                    description: "A portfolio project using Vue, JS, HTML and CSS",
+                    image: "https://i.postimg.cc/XYLVSZGX/vue-portfolio.png",
+                    netlify: "deno-vue-portfolio.netlify.app",
+                    github: "https://github.com/Simp4Hitagi/vue-portfolio"
                 }
             ]
         }
