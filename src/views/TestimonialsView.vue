@@ -3,7 +3,7 @@
         <h1 class="display-1 fw-bold">Testimonials</h1>
         <div v-for="testimonial in testimonials" :key="testimonial">
             <div class="card mb-3 m-auto" style="max-width: 540px;">
-                <div class="row g-0">
+                <div class="row g-0 m-auto">
                   <div class="col-md-4">
                     <img :src=testimonial.image alt="..." class="img-fluid rounded-start card-img-top img-fluid m-auto " style="width: 100%; height: 100%">
                   </div>
@@ -11,9 +11,7 @@
                     <div class="card-body">
                       <h5 class="card-title">{{testimonial.name}}</h5>
                       <p class="card-text">{{testimonial.title}}</p>
-                      <p class="card-text">{{testimonial.testimonial}}</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
+                      <p class="card-text">{{testimonial.testimonial}}</p>                    </div>
                   </div>
                 </div>
               </div>
@@ -51,10 +49,10 @@ export default {
                     image: "https://i.postimg.cc/9fWZj8Gg/John.jpg"
                 },
                 {
-                    name: "",
-                    title: "",
-                    testimonial: "",
-                    image: ""
+                    name: "Maxwell Isaacs",
+                    title: "Student",
+                    testimonial: "Deno is...",
+                    image: "https://i.postimg.cc/YSk6vFjk/Me-Profile.jpg"
                 },
                 {
                     name: "",
