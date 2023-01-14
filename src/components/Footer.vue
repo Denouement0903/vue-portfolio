@@ -1,10 +1,10 @@
 <template>
-  <div class="footer position-relative bottom-0"> 
+  <div class="footer position-relative"> 
     <div class="position-absolute bottom-50">
-      <ul id="social_icons" class="list-unstyled d-flex align-content-center justify-content-center gap-5">
-        <li class="text-primary m-1"><a href="https://github.com/Simp4Hitagi/vue-portfolio"><i class="fa-brands fa-github fa-2x rounded"></i></a>Github</li>
-        <li class="text-primary m-1"><a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin fa-2x rounded"></i></a>LinkedIn</li>
-        <li class="text-primary m-1"><a href="https://www.facebook.com/profile.php?id=100081787963576"><i class="fa-brands fa-solid fa-2x fa-facebook"></i></a>Facebook</li>
+      <ul id="social_icons" class="list-unstyled d-flex align-content-center justify-content-center gap-5 ">
+        <li class="text-primary"><a href="https://github.com/Simp4Hitagi/vue-portfolio"><i class="fa-brands fa-github fa-2x rounded"></i></a>Github</li>
+        <li class="text-primary"><a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin fa-2x rounded"></i></a>LinkedIn</li>
+        <li class="text-primary"><a href="https://www.facebook.com/profile.php?id=100081787963576"><i class="fa-brands fa-solid fa-2x fa-facebook"></i></a>Facebook</li>
       </ul>
     </div>
     <p class="lead mx-auto position-absolute bottom-0"><strong>Copyright &copy; 2023</strong></p>
