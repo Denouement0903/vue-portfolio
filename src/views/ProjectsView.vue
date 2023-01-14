@@ -68,6 +68,14 @@ export default {
                     image: "https://i.postimg.cc/XYLVSZGX/vue-portfolio.png",
                     netlify: "deno-vue-portfolio.netlify.app",
                     github: "https://github.com/Simp4Hitagi/vue-portfolio"
+                },
+                {
+                    id: 6,
+                    name: "Animation Site",
+                    description: "A animation project using HTML and CSS",
+                    image: "https://i.postimg.cc/YqgRP8Bp/Screenshot-2023-01-14-133534.png",
+                    netlify: "animation-deno.netlify.app",
+                    github: "https://github.com/Simp4Hitagi/animation"
                 }
             ]
         }
