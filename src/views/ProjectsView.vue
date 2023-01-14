@@ -1,16 +1,20 @@
 <template>
     <div>
-        <h1 class="display-1 fw-bold">Projects</h1> 
-        <div v-for="project in projectsArray" :key="project">
-            <div class="card mx-auto my-3" style="width: 18rem;">
-                    <img :src=project.image class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">{{project.name}}</h5>
-                      <p class="card-text">{{project.description}}</p>
-                      <a :href=project.netlify class="btn btn-primary m-3">Netlify</a>
-                      <a :href=project.github class="btn btn-primary m-3">Github</a>
+        <h1 class="display-1 fw-bold animate__animated animate__fadeInDown">Projects</h1> 
+        <div class="container">
+            <div class="row">
+                    <div class="col" v-for="project in projectsArray" :key="project">
+                        <div class="card mx-auto my-3" style="width: 18rem;">
+                                <img :src=project.image class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">{{project.name}}</h5>
+                                  <p class="card-text">{{project.description}}</p>
+                                  <a :href=project.netlify class="btn btn-primary m-3">Netlify</a>
+                                  <a :href=project.github class="btn btn-primary m-3">Github</a>
+                                </div>
+                          </div>
                     </div>
-              </div>
+            </div>
         </div>
     </div>
     <Footer/>

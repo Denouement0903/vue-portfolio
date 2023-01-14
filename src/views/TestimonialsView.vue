@@ -1,20 +1,32 @@
 <template>
     <div>
-        <h1 class="display-1 fw-bold">Testimonials</h1>
-        <div v-for="testimonial in testimonials" :key="testimonial">
-            <div class="card mb-3 m-auto" style="max-width: 540px;">
-                <div class="row g-0 m-auto">
-                  <div class="col-md-4">
-                    <img :src=testimonial.image alt="..." class="img-fluid rounded-start card-img-top img-fluid m-auto " style="width: 100%; height: 100%">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">{{testimonial.name}}</h5>
-                      <p class="card-text">{{testimonial.title}}</p>
-                      <p class="card-text">{{testimonial.testimonial}}</p>                    </div>
-                  </div>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-8">
+                    <h1 class="display-1 fw-bold animate__animated animate__fadeInDown">Testimonials</h1>
                 </div>
-              </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div v-for="testimonial in testimonials" :key="testimonial">
+                    <div class="card mb-3 m-auto" style="max-width: 540px;">
+                        <div class="row g-0 m-auto">
+                          <div class="col-md-4">
+                            <img :src=testimonial.image alt="..." class="img-fluid rounded-start card-img-top img-fluid m-auto " style="width: 100%; height: 100%">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">{{testimonial.name}}</h5>
+                              <p class="card-text">{{testimonial.title}}</p>
+                              <p class="card-text">{{testimonial.testimonial}}</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+    
+            </div>
         </div>
     </div>
     <Footer/>
@@ -54,10 +66,10 @@ export default {
                     image: "https://i.postimg.cc/9fWZj8Gg/John.jpg"
                 },
                 {
-                    name: "Maxwell Isaacs",
+                    name: "Luntu ",
                     title: "Student",
-                    testimonial: "Deno is...",
-                    image: "https://i.postimg.cc/YSk6vFjk/Me-Profile.jpg"
+                    testimonial: "Deno is a reliable person who is not turn down a fellow coder's cry for help when they need it. His determination to never turn down a challenge, work ethic, and intellect makes him a great asset to have in a team and said team is bound to be successful in whichever task if he is involved in it.",
+                    image: "https://i.postimg.cc/4yL9TCRv/DSC-3496.jpg"
                 },
                 {
                     name: "KonkeJeff RicardoMalindi",
@@ -77,5 +89,5 @@ export default {
 }
 </script>
 <style scoped>
-    
+
 </style>

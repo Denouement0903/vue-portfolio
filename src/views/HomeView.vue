@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <section class="landing-page my-5 ">
-        <h1 class="display-1 fw-bold">Deno Rautenbach</h1>
-      <h2 class="display-4 fw-bolder">Need help designing or building a website?</h2>
-      <h3 class="display-5 fw-bolder">Look no further. Why? Because I am here...</h3>
+        <h1 class="display-1 fw-bold animate__animated animate__fadeInDown">Deno Rautenbach</h1>
+      <h2 class="display-4 fw-bolder animate__animated animate__fadeInDown">Need help designing or building a website?</h2>
+      <h3 class="display-5 fw-bolder animate__animated animate__fadeInDown">Look no further. Why? Because I am here...</h3>
     </section>
 <!-- social icons -->
     <div>

@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h1 class="display-1 fw-bold">Resume</h1>
+        <h1 class="display-1 fw-bold animate__animated animate__fadeInDown">Resume</h1>
         <section class="skills">
-            <h1 class="display-4">Skills</h1>
+            <h1 class="display-4 animate__animated animate__fadeInDown">Skills</h1>
             <h2 class="text-primary">HTML</h2>
             <div class="progress m-3" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
                 <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 93%">93%</div>

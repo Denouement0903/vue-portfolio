@@ -1,14 +1,6 @@
 <template>
-  <!-- <label class="mx-3 rounded-3 my-3">
-    Your email:
-    <input type="email" name="email" class="rounded-3">
-  </label>
-  <label class="mx-3 rounded-3 my-3">
-    Your message:
-    <textarea name="message" class="rounded-3"></textarea>
-  </label> -->
     <div>
-      <h1 class="display-1 fw-bold">Contact</h1>
+      <h1 class="display-1 fw-bold animate__animated animate__fadeInDown">Contact</h1>
         <form class="w-75 m-auto" action="https://formspree.io/f/xlevnzeq" method="POST">
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Name: </label>
@@ -27,7 +19,7 @@
             <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required></textarea>
           </div>
-          <button type="submit" class="btn btn-info">Submit</button>
+          <button type="submit" class="btn btn-info mb-3">Submit</button>
         </form>
     </div>
     <Footer/>

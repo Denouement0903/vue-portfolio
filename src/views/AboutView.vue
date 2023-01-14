@@ -1,7 +1,31 @@
 <template>
   <div>
     <section class="about">
-      <h1 class="display-1 fw-bold">About Me</h1>
+      <h1 class="display-1 fw-bold animate__animated animate__fadeInDown">About Me</h1>
+      <div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://i.postimg.cc/sDMvGK5P/D2.jpg" class="d-block rounded-5 w-25 m-auto" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.postimg.cc/85rTPX2s/D1.jpg" class="d-block rounded-5 w-25 m-auto" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.postimg.cc/xdwWgfZT/D3.jpg" class="d-block rounded-5 w-25 m-auto" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
       <div id="con_about" class="container-fluid py-5 bg-secondary bg-opacity-50 h-100 my-5">
             <p class="lead shadow text-black my-5">I am an aspiring Web Developer with a keen interest in building projects to solve a need.
             What might that need be?
