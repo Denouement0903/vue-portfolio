@@ -17,15 +17,11 @@
             </div>
         </div>
     </div>
-    <Footer/>
 </template>
 <script>
-import Footer from '@/components/Footer.vue'
+// create a backend for projects
 export default {
     name: 'projects',
-    components: {
-        Footer
-    },
     data(){
         return{
             projectsArray: [

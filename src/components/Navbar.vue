@@ -1,35 +1,23 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg bg-primary-subtle">
-            <div class="container-fluid bs-primary-bg-subtle">
-              <a class="navbar-brand" href="#"><img src="https://i.postimg.cc/xCZBBMwP/icons8-d-64.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item p-3">
-                    <router-link style="text-decoration:none" to="/"><i class="fa-solid fa-house fa-fade m-1"></i>Home</router-link>
-                  </li>
-                  <li class="nav-item p-3">
-                    <router-link style="text-decoration:none" to="/about"><i class="fa-solid fa-circle-info fa-bounce m-1"></i>About</router-link>
-                  </li>
-                  <li class="nav-item p-3">
-                    <router-link style="text-decoration:none" to="/resume"><i class="fa-solid fa-file fa-beat m-1"></i>Resume</router-link>
-                  </li>
-                  <li class="nav-item p-3">
-                    <router-link style="text-decoration:none" to="/projects"><i class="fa-solid fa-diagram-project fa-beat-fade m-1"></i>Projects</router-link>
-                  </li>
-                  <li class="nav-item p-3">
-                    <router-link style="text-decoration:none" to="/testimonials"><i class="fa-solid fa-people-group fa-flip m-1"></i>Testimonials</router-link>
-                  </li>
-                  <li class="nav-item p-3">
-                    <router-link style="text-decoration:none" to="/contact"><i class="fa-solid fa-address-card fa-shake m-1"></i>Contact</router-link>
-                  </li>
-                </ul>
-              </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/ElEQVR4nO2ZTYiNURjHf2OkGDMLCqVkRGF8dX2NjyIjC5GkKBuRhhUrKSmyYoXSlIXNpORjo2uhmMZMQ4kVSSYbqykfISXN3Dt06ty63d5z5pzznvth3udXZ3XPec7z/N/z8ZzngiAIgiAIgiAIglBX+oC/Fe0TGWEG8CdBgNtkhN0Jwat2koxw1SBABxnhXULw34ApZID5hq//kP+MrcCTgHHHDAKcMfQfBPbSYIH3aafHAsbfMQjQaeg/pn9/DnRRRzbrL17utK8Aao9/Tgj+NzBtAgFKbQjYQQ3pBPKGr+YrwDqDnX7LmEoByoXYThXZaAk8VIBzBjuXAgQoNbUqNxCRVcA9YHyCiUME6DfY2ZVCgHIh1qcJfIVH4Kp90BmdKy2G9LcAtFrGqf3+1tGnkhBrfQLvAHqBouMEv4CLlkPLxB6DvdcOY6cCp4Efjj6O6+2bsxldrgMveBhV/ecSxnWD3WseNmZrOwVPIdaUG1kE3PQwotorYBPpeG+wfSDAVk7nBa7+F/X2Xopn4CPAEaApZfALLHPMC7TZpH0b8YingGPHUb3U2ojDccM8wxFst+gzKemATWpM1OFpFZ6ldw1z3Yo4xxLgUQwB8kB7RMeaga+GuY5GfmX2OlzjuCwTlZtfBmZGyihN8yyOYH86cFZfz05boOBxaKgi5aGUDp63HLBpOah99DoE2wOuwZf6S4YwaLB5P0Xg6l4fCL0GSyzzTISKuv8c3GnVN0qSvVP4MytGIpQ2Ff6u95xLKrzPYseapiakwt3AF8/Ac/V+DN0wjP2pbwcX1GPoTTUfQ5WsjPgcHjaMe4w7NXsOV7JaCxEqwELLOHUzuFLzgkisktgJi9PbcKduJbGkomjeQ4AHBsdH9X+DrtS9KFrJFv1esAnQrP/pSRLgBX6Ul8V30kB0Ac8s28a0/K94zjPQaIG7cMEiQEP9y1MthiwJiiprTWraLOmvqu5OevZbln8PGaDHIsBhMsBHiwCqOCoIgiAIgiAIgiBQY/4BjkjADnfPreoAAAAASUVORK5CYII="></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <router-link style="text-decoration:none" class="nav-link active" aria-current="page"  to="/">Home</router-link>
+              <router-link style="text-decoration:none" class="nav-link" to="/about">About</router-link>
+              <router-link style="text-decoration:none" class="nav-link" to="/resume">Resume</router-link>
+              <router-link style="text-decoration:none" class="nav-link" to="/projects">Projects</router-link>
+              <router-link style="text-decoration:none" class="nav-link" to="/testimonials">Testimonials</router-link>
+              <router-link style="text-decoration:none" class="nav-link" to="/contact">Contact</router-link>
             </div>
-          </nav>
+          </div>
+        </div>
+      </nav>
     </div>
 </template>
 <script>
@@ -38,7 +26,7 @@ export default {
 }
 </script>
 <style scoped>
-    nav {
-      background-image: url('https://i.postimg.cc/k4fh13x0/DALL-E-2023-01-10-13-32-20-neon-sunset-in-Cape-Town.png');
-    }
+router-link:hover {
+color: aqua;
+}
 </style>

@@ -22,15 +22,10 @@
           <button type="submit" class="btn btn-info mb-3">Submit</button>
         </form>
     </div>
-    <Footer/>
 </template>
 <script>
-import Footer from '@/components/Footer.vue';
 export default {
-    name: 'contact',
-    components: {
-      Footer
-    }
+    name: 'contact'
 }
 </script>
 <style scoped>

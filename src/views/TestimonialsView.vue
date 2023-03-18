@@ -29,15 +29,10 @@
             </div>
         </div>
     </div>
-    <Footer/>
 </template>
 <script>
-import Footer from '@/components/Footer.vue';
 export default {
     name: 'testimonials',
-    components: {
-        Footer
-    },
     data(){
         return{
             testimonials: [
