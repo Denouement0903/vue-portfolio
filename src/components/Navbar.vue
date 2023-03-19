@@ -22,11 +22,56 @@
 </template>
 <script>
 export default {
-    name: 'navbar'
+    name: 'navbar',
+    mounted() {
+  const links = document.querySelectorAll('ul.nav li a[href^="#"]');
+
+  links.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault();
+      const target = document.querySelector(link.hash);
+      const offsetTop = target.offsetTop;
+
+      window.scrollTo({
+        top: offsetTop,
+        behavior: "smooth"
+      });
+    });
+  });
+}
+
 }
 </script>
 <style scoped>
-router-link:hover {
-color: aqua;
+
+.navbar-nav a::before, .navbar-nav a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
 }
+.navbar-nav a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+.navbar-nav a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+.navbar-nav a:hover, .navbar-nav a:hover::before, .navbar-nav a:hover::after, .navbar-nav a:focus::before, .navbar-nav a:focus::after {
+	color: white !important;
+	background-color: transparent !important;	
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
 </style>

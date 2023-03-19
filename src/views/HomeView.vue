@@ -6,7 +6,7 @@
           <div class="typewriter my-auto">
           <h1 class="display-2">//  Hello There</h1>
           </div>
-          <div class="socials">
+          <div class="socials my-5">
             <ul class="list-unstyled">
               
               <li class="fw-bold">
