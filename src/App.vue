@@ -37,6 +37,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+  overflow-x: auto;
 
 }
 </style>

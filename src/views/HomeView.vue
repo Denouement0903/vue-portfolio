@@ -40,7 +40,7 @@
             </ul>
           </div>      
         </div>
-        <div class="col-5">
+        <div class="col-5 mx-auto">
           <img src="https://i.postimg.cc/MTQDqhtg/IMG-3354-3-removebg-preview.png" class="lazy" alt="">
         </div>
       </div>
