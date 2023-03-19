@@ -17,7 +17,32 @@
             In my free time you'll find me in front of a computer screen learning something new. Be it a Language, Programming language, Mathematics, Philosophy, Mythology or even Classical Literature. My favorite pass time is learning something new! 
             Even so, I still enjoy sports and any outdoor activity just to be closer to nature.
           </p>
-
+		  <div class="row d-flex justify-content-center">
+        <div class="col-lg-8">
+	<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+	<h3 class="display-3">DENO RAUTENBACH</h3>
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://i.postimg.cc/k5cLyQhJ/DSC-0599-3-removebg-preview.png" class="d-block w-50 mx-auto" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://i.postimg.cc/rsFtBJQh/DSC-0612-2-removebg-preview.png" class="d-block w-75 mx-auto" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.postimg.cc/C1kPQFzh/DSC-0601-2-removebg-preview.png" class="d-block w-50 mx-auto" alt="...">
+    </div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark rounded-3" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark rounded-3" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> 
+  </div>
+</div>
+      	</div>
+    	</div>
 		    <!-- button to services/form -->
 			<button type="button" class="btn btn-outline-dark my-3"><router-link style="text-decoration:none" to="/contact">Let's Talk</router-link></button>
             <!-- list group -->
@@ -30,11 +55,6 @@
               <li class="list-group-item-dark rounded-2 p-2">0303095358089</li>
             </ul>
         </div>
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-8">
-
-      </div>
-    </div>
   </div>
 </section>
 <!-- Section: Design Block -->
@@ -47,6 +67,10 @@ export default{
 
 </script>
 <style scoped>
+img {
+	height: 50vh;
+	object-fit: cover;
+}
 .bg-image{
   background-image: url('https://i.postimg.cc/wjhN4RB1/11718.jpg');
   background-repeat: no-repeat;
