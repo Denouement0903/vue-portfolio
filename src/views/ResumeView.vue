@@ -57,7 +57,9 @@
           <h2 class="text-center display-1 text-light">SKILLS</h2>
           <img class="w-75 rounded-5 mx-auto my-5 d-block" src="https://i.postimg.cc/x1whqSPr/jay-versace-typing.gif" alt="">
           <h4 class="display-5 text-center text-light">Download my CV</h4>
-          <button type="button" class="btn btn-primary rounded-2 mx-auto d-block my-5">Download</button>
+          <button type="button" class="btn btn-primary rounded-2 mx-auto d-block my-5">
+            <a :href="downloadURL" download>Download</a>
+            </button>
          </div>
       </div>
       </div>
@@ -118,7 +120,12 @@
 </template>
 <script>
 export default {
-  name: 'resume'
+  name: 'resume',
+  data() {
+    return {
+        downloadURL: 'https://drive.google.com/file/d/1gtIqSWnem4Vew2q4iLa-NiaFjo9QfoOr/view?usp=sharing'
+    }
+  }
 };
 </script>
 <style scoped>
