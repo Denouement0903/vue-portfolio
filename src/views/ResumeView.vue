@@ -57,8 +57,8 @@
           <h2 class="text-center display-1 text-light">SKILLS</h2>
           <img class="w-75 rounded-5 mx-auto my-5 d-block" src="https://i.postimg.cc/x1whqSPr/jay-versace-typing.gif" alt="">
           <h4 class="display-5 text-center text-light">Download my CV</h4>
-          <button type="button" class="btn btn-primary rounded-2 mx-auto d-block my-5">
-            <a :href="downloadURL" download>Download</a>
+          <button type="button" class="btn btn-danger rounded-2 mx-auto d-block my-5">
+            <a target="_blank" class="text-light" :href="downloadURL" download>Download</a>
             </button>
          </div>
       </div>
@@ -70,7 +70,7 @@
       <div class="col-xl-8 mx-auto text-center">
         <div class="section-title">
           <h4 class="text-light">Education and Experience</h4>
-          <p>Let's take a trip down memory lane...</p>
+          <h5>Let's take a trip down memory lane...</h5>
         </div>
       </div>
     </div>
@@ -79,37 +79,46 @@
                 <ul class="timeline-list">
                    <!-- Single Experience -->
                    <li>
-                      <div class="timeline_content w-100">
-                         <span>15 Jan 2017-Dec 2021</span>
+                      <div class="timeline_content">
+                         <span>15 Jan 2017</span>
                          <h4>Start of Highschool</h4>
-                         <p class="shadow text-black">I started grade 8 at Villiersdorp Secondary School.</p>
+                         <p>I started grade 8 at <span class="font-weight-bold text-danger">Villiersdorp Secondary School.</span> I matriculated with a Bachelors pass. 
+                          My Subjects Included:
+                          <em>Afrikaans HL,
+                          English FAL,
+                          Maths,
+                          Life Sciences,
+                          Geography,
+                          Computer Applications Technology,
+                          Life Orientation</em>
+                        </p>
                         
                       </div>
                    </li>
                    
-                   <!-- <li>
+                        <li>
                       <div class="timeline_content">
-                      <span>2007-2012</span>
-                         <h4>Junior Developer</h4>
-                         <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
+                      <span>Dec 2021</span>
+                         <h4>End Of Highschool</h4>
+                         <p>I was Best in Afrikaans and English, 2nd best in Math, Geography and Computer Applications Technology, 3rd best in Life Science and achieved a distinction in English FAL in 2021 for Matric.</p>
                       </div>
                    </li>
                    
                    <li>
                       <div class="timeline_content">
-                      <span>2012-2015</span>
-                         <h4>Senior Developer</h4>
-                         <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
+                      <span>11 Feb 2022</span>
+                         <h4>Start of Job</h4>
+                         <p>I acquired my first hands-on job experience at a company called <span class="font-weight-bold text-danger">Tech Nasty.</span> During my time at Tech Nasty my designation was as an assistant in Information Technology and Computer repair. This involved troubleshooting of hardware and software issues and repair as well as selling of technology and services. My key responsibilities included shop management and assistance.</p>
                       </div>
                    </li>
                    
                    <li>
                       <div class="timeline_content">
-                      <span>2015-2018</span>
-                         <h4>Project Manager</h4>
-                         <p>We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website.</p>
+                      <span>15 Mar 2021</span>
+                         <h4>End of Job</h4>
+                         <p>My reason for leaving was the indefinite closure of Tech Nasty due to the restrictions brought forth by the Covid-19 pandemic at the time. Also another contributing factor was that I was self-studying and it was in the time of me having remote classes as well as working at the aforementioned company simultaneously.</p>
                       </div>
-                   </li> -->
+                   </li>
                 </ul>
              </div>
           </div>
