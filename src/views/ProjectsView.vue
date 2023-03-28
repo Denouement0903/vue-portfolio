@@ -87,7 +87,7 @@ export default {
                 {
                     id: 8,
                     name: "Animation Site",
-                    description: "A animation project using HTML and CSS",
+                    description: "A animation project using HTML and CSS as basic practice",
                     image: "https://i.postimg.cc/YqgRP8Bp/Screenshot-2023-01-14-133534.png",
                     netlify: "animation-deno.netlify.app",
                     github: "https://github.com/Simp4Hitagi/animation"
