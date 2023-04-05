@@ -49,10 +49,9 @@
             <h1 class="shadow">Personal Details</h1>
             <ul class="list-group border-2 border-dark list-unstyled gap-2">
               <li class="list-group-item-dark rounded-2 p-2">9 March 2003</li>
-              <li class="list-group-item-dark rounded-2 p-2">02 Tokai Road, Tokai Forest, Cape Town, 7945</li>
+              <li class="list-group-item-dark rounded-2 p-2">Tokai, Cape Town, 7966</li>
               <li class="list-group-item-dark rounded-2 p-2">Colored</li>
               <li class="list-group-item-dark rounded-2 p-2">No criminal record</li>
-              <li class="list-group-item-dark rounded-2 p-2">0303095358089</li>
             </ul>
         </div>
   </div>

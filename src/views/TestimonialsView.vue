@@ -10,12 +10,12 @@
         <div class="container">
             <div class="row justify-content-around">
                 <div v-for="testimonial in testimonials" :key="testimonial">
-                    <div class="card mb-3 m-auto" style="max-width: 540px;">
+                    <div class="card mb-3 m-auto border border-dark border-3" style="max-width: 540px;">
                         <div class="row g-0 m-auto">
                           <div class="col-md-4">
-                            <img :src=testimonial.image alt="..." class="img-fluid rounded-start card-img-top img-fluid m-auto " style="width: 100%; height: 100%">
+                            <img :src=testimonial.image alt="..." class="img-fluid card-img-top img-fluid m-auto " style="width: 100%; height: 100%">
                           </div>
-                          <div class="col-md-8">
+                          <div class="col-md-8 bg-warning opacity-75">
                             <div class="card-body">
                               <h5 class="card-title">{{testimonial.name}}</h5>
                               <p class="card-text">{{testimonial.title}}</p>

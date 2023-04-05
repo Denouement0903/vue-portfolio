@@ -30,7 +30,7 @@
       <!-- Grid row -->
       <h6 class="text-uppercase text-center fw-bold mb-4">Contact</h6>          <!-- Links -->
       <div class="row mt-3 d-flex">
-          <p><i class="fas fa-home me-3"></i> Cape Town, 02 Tokai Rd, Tokai, 7966</p>
+          <p><i class="fas fa-home me-3"></i> Cape Town, Tokai, 7966</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
             denorauten@gmail.com
@@ -45,7 +45,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    <a href="/">{{year}} &#169; Copyright Deno Rautenbach</a>  
+    <a href="/">{{year}} <span class="w-25">&#9400;</span> Copyright Deno Rautenbach. All Rights Reserved</a>  
   </div>
   <!-- Copyright -->
 </footer>
