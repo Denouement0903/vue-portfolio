@@ -48,8 +48,8 @@
             <!-- list group -->
             <h1 class="shadow">Personal Details</h1>
             <ul class="list-group border-2 border-dark list-unstyled gap-2">
-              <li class="list-group-item-dark rounded-2 p-2">9 March 2003</li>
-              <li class="list-group-item-dark rounded-2 p-2">Tokai, Cape Town, 7966</li>
+              <li class="list-group-item-dark rounded-2 p-2"> 09 // 03 // 2003</li>
+              <li class="list-group-item-dark rounded-2 p-2">Tokai, Cape Town</li>
               <li class="list-group-item-dark rounded-2 p-2">Colored</li>
               <li class="list-group-item-dark rounded-2 p-2">No criminal record</li>
             </ul>

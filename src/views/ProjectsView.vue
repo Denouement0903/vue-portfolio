@@ -9,19 +9,35 @@
                                 <div class="card-body border border-warning border-4">
                                   <h5 class="card-title">{{project.name}}</h5>
                                   <p class="card-text">{{project.description}}</p>
-                                  <a :href=project.netlify class="btn btn-primary m-3">Netlify</a>
-                                  <a :href=project.github class="btn btn-primary m-3">Github</a>
+                                  <a :href=project.netlify class="btn btn-primary m-3"  target="_blank">Netlify</a>
+                                  <a :href=project.github class="btn btn-primary m-3"  target="_blank">Github</a>
                                 </div>
                           </div>
                     </div>
             </div>
         </div>
+        <!-- python terminal -->
+        <!-- <div ref="terminalContainer"></div> -->
     </div>
 </template>
 <script>
 // create a backend for projects
+import { Terminal } from 'xterm';
+import { FitAddon } from 'xterm-addon-fit';
 export default {
     name: 'projects',
+    mounted() {
+        const terminalContainer = this.$refs.terminalContainer;
+        const term = new Terminal();
+        const fitAddon = new FitAddon();
+    
+        term.loadAddon(fitAddon);
+        term.open(terminalContainer);
+        fitAddon.fit();
+    
+        // You can now use `term` to interact with the terminal
+        term.write('Hello, world!\r\n');
+      },
     data(){
         return{
             projectsArray: [

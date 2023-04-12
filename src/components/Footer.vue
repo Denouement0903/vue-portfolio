@@ -25,22 +25,21 @@
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <section class="">
+  <!-- <section class="">
     <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <h6 class="text-uppercase text-center fw-bold mb-4">Contact</h6>          <!-- Links -->
+
+      <h6 class="text-uppercase text-center fw-bold mb-4">Contact</h6> 
       <div class="row mt-3 d-flex">
           <p><i class="fas fa-home me-3"></i> Cape Town, Tokai, 7966</p>
           <p>
             <i class="fas fa-envelope me-3"></i>
             denorauten@gmail.com
           </p>
-          <p><i class="fas fa-phone me-3"></i> + 27 919 3011</p>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
+          <p><i class="fas fa-phone me-3"></i> + 278 919 3011</p>
+
+
     </div>
-  </section>
+  </section> -->
   <!-- Section: Links  -->
 
   <!-- Copyright -->

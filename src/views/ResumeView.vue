@@ -70,7 +70,7 @@
       <div class="col-xl-8 mx-auto text-center">
         <div class="section-title">
           <h4 class="text-light">Education and Experience</h4>
-          <h5>Let's take a trip down memory lane...</h5>
+          <h5 class="animate__animated animate__fadeInUp">Let's take a trip down memory lane...</h5>
         </div>
       </div>
     </div>
@@ -81,6 +81,7 @@
                    <li>
                       <div class="timeline_content">
                          <span>15 Jan 2017</span>
+                         <h1>Student</h1>
                          <h4>Start of Highschool</h4>
                          <p>I started grade 8 at <span class="font-weight-bold text-danger">Villiersdorp Secondary School.</span> I matriculated with a Bachelors pass. 
                           My Subjects Included:
@@ -92,31 +93,35 @@
                           Computer Applications Technology,
                           Life Orientation</em>
                         </p>
-                        
-                      </div>
-                   </li>
-                   
-                        <li>
-                      <div class="timeline_content">
-                      <span>Dec 2021</span>
+                        <span>Dec 2021</span>
                          <h4>End Of Highschool</h4>
                          <p>I was Best in Afrikaans and English, 2nd best in Math, Geography and Computer Applications Technology, 3rd best in Life Science and achieved a distinction in English FAL in 2021 for Matric.</p>
                       </div>
                    </li>
                    
-                   <li>
+                        <li>
                       <div class="timeline_content">
-                      <span>11 Feb 2022</span>
+                        <span>11 Feb 2022</span>
+                        <h1>Assistant</h1>
                          <h4>Start of Job</h4>
-                         <p>I acquired my first hands-on job experience at a company called <span class="font-weight-bold text-danger">Tech Nasty.</span> During my time at Tech Nasty my designation was as an assistant in Information Technology and Computer repair. This involved troubleshooting of hardware and software issues and repair as well as selling of technology and services. My key responsibilities included shop management and assistance.</p>
+                         <p>I acquired my first hands-on job experience at a company called <span class="font-weight-bold text-danger">Tech Nasty.</span> During my time at Tech Nasty my designation was as an assistant in Information Technology and Computer repair. This involved <em>troubleshooting of hardware and software issues and repair</em> as well as <em>selling of technology and services.</em> My key responsibilities included shop management and assistance.</p>
+
+                         <span>15 Mar 2021</span>
+                         <h4>End of Job</h4>
+                         <p>My reason for leaving was the indefinite closure of Tech Nasty due to the restrictions brought forth by the Covid-19 pandemic at the time. Also another contributing factor was that I was self-studying and it was in the time of me having remote classes as well as working at the aforementioned company simultaneously.</p>
                       </div>
                    </li>
                    
                    <li>
                       <div class="timeline_content">
-                      <span>15 Mar 2021</span>
-                         <h4>End of Job</h4>
-                         <p>My reason for leaving was the indefinite closure of Tech Nasty due to the restrictions brought forth by the Covid-19 pandemic at the time. Also another contributing factor was that I was self-studying and it was in the time of me having remote classes as well as working at the aforementioned company simultaneously.</p>
+                        <span>27 Sep 2022</span>
+                        <h1>Web Dev Graduate</h1>
+                         <h4>Start of Studies</h4>
+                         <p>I attended a 6-month long coding boot camp at <span class="font-weight-bold text-danger">Life Choices Academy </span> where I acquired various skills with projects to solidify the knowledge and along with it, <em>Work Ethics, Soft skills and Personal/Professional development.</em></p>
+
+                         <span>31 Mar 2023</span>
+                         <h4>End of Studies</h4>
+                         <p>My time at Life Choices Academy ended when I completed the Full-Stack Web development course.</p>
                       </div>
                    </li>
                 </ul>
@@ -132,7 +137,7 @@ export default {
   name: 'resume',
   data() {
     return {
-        downloadURL: 'https://drive.google.com/file/d/1gtIqSWnem4Vew2q4iLa-NiaFjo9QfoOr/view?usp=sharing'
+        downloadURL: 'https://drive.google.com/file/d/1NRH0kG9t8d6ew4CfxjlTQ8r35Yy187L_/view?usp=share_link'
     }
   }
 };
