@@ -1,13 +1,39 @@
 <template>
     <div>
-        <div class="container">
+        <div class="container-page">
             <div class="row justify-content-around">
                 <div class="col-8">
                     <h1 class="display-1 fw-bold animate__animated animate__fadeInDown">Testimonials</h1>
                 </div>
             </div>
         </div>
+
         <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel" v-for="testimonial in testimonials" :key="testimonial">
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img :src=testimonial.image alt="..." class="img-fluid card-img-top img-fluid m-auto w-100">
+                        </div>
+                        <div class="testimonial-content">
+                            <p class="description">
+                                {{testimonial.testimonial}}
+                            </p>
+                            <h3 class="testimonial-title">
+                                {{testimonial.name}}
+                                {{testimonial.title}}
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!-- <div class="container">
             <div class="row justify-content-around">
                 <div v-for="testimonial in testimonials" :key="testimonial">
                     <div class="card mb-3 m-auto border border-dark border-3" style="max-width: 540px;">
@@ -27,7 +53,7 @@
                 </div>
     
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 <script>
@@ -84,5 +110,112 @@ export default {
 }
 </script>
 <style scoped>
+/* .container-page{ 
+    backdrop-filter: blur(80px);
+} */
+img{
+    width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.testimonial{
+    border-left: 3px solid #000000;
+    padding: 100px 0 100px 275px;
+    position: relative;
+    backdrop-filter: blur(80px);
+}
+.testimonial:before,
+.testimonial:after{
+    content: "";
+    width: 320px;
+    height: 55px;
+    border-right: 3px solid #000000;
+    position: absolute;
+    left: 0;
+}
+.testimonial:before{
+    border-top: 3px solid #f7ca03;
+    top: 0;
+}
+.testimonial:after{
+    border-bottom: 3px solid #000000;
+    bottom: 0;
+}
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.testimonial .description{
+    color: #7a7e82;
+    line-height: 27px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    position: absolute;
+    top: -70px;
+    left: 0;
+    color: #7a7e82;
+}
+.testimonial .testimonial-title{
+    color: #22272c;
+    text-transform: capitalize;
+}
+.testimonial .post{
+    display: block;
+    color :#ffd000;
+    margin-top: 10px;
+}
+.owl-theme .owl-controls{
+    text-align: right;
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: #ffde22;
+    border-radius: 0;
+    opacity: 1;
+    padding: 5px 10px;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    color: #000000;
+}
+.owl-next:before{
+    content: "\f054";
+}
+@media only screen and (max-width: 990px){
+    .testimonial{
+        padding: 80px 0 80px 265px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .testimonial{
+        padding: 0;
+        border: none;
+    }
+    .testimonial:before,
+    .testimonial:after{
+        border: none;
+    }
+    .testimonial .pic{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .testimonial .description{
+        margin-top: 15px;
+    }
+    .testimonial .description:before{
+        content: "";
+    }
+}
 
 </style>
