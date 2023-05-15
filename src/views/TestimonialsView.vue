@@ -19,7 +19,7 @@
                             <h3 class="testimonial-title">
                                 {{testimonial.name}}
                                 <br/>
-                               <small class="text-info">
+                               <small class="text-primary">
                                 {{testimonial.title}}
                                </small> 
                             </h3>
@@ -88,13 +88,8 @@ export default {
 .container-page{ 
     backdrop-filter: blur(80px);
 }
-/* img{
-    width: 200px;
-  height: 200px;
-  object-fit: cover;
-} */
 .testimonial{
-    border-left: 3px solid #000000;
+    border-left: 6px solid #000000;
     padding: 100px 0 100px 275px;
     position: relative;
     backdrop-filter: blur(80px);
@@ -104,7 +99,7 @@ export default {
     content: "";
     width: 320px;
     height: 55px;
-    border-right: 3px solid #000000;
+    border-right: 5px solid #000000;
     position: absolute;
     left: 0;
 }

@@ -3,6 +3,13 @@
     <div class="container-fluid">
       <div class="row bg-dark rounded-2">
         <div class="col-md-6">
+          
+             <h3 class="progress-title">WordPress == 70%</h3>
+             <div class="progress w-blue">
+                 <div class="progress-bar" style="width:70%;">
+                     <div class="progress-value">70%</div>
+                 </div>
+             </div>
              <h3 class="progress-title">HTML5 == 95%</h3>
              <div class="progress orange">
                  <div class="progress-bar" style="width:95%;">
@@ -30,16 +37,22 @@
              </div>
              <h3 class="progress-title">MySQL == 91%</h3>
              <div class="progress light-blue">
-                 <div class="progress-bar" style="width:91%;">
-                     <div class="progress-value">91%</div>
-                 </div>
-             </div>
-             <h3 class="progress-title">BOOTSTRAP == 93%</h3>
-             <div class="progress purple">
-                 <div class="progress-bar" style="width:93%;">
-                     <div class="progress-value">93%</div>
-                 </div>
-             </div>
+               <div class="progress-bar" style="width:91%;">
+                <div class="progress-value">91%</div>
+              </div>
+            </div>
+            <h3 class="progress-title">BOOTSTRAP == 93%</h3>
+            <div class="progress purple">
+              <div class="progress-bar" style="width:93%;">
+                <div class="progress-value">93%</div>
+              </div>
+            </div>
+            <h3 class="progress-title">REACTJS == 50%</h3>
+            <div class="progress r-blue">
+                <div class="progress-bar" style="width:50%;">
+                    <div class="progress-value">50%</div>
+                </div>
+            </div>
              <h3 class="progress-title">NODEJS == 69%</h3>
              <div class="progress dark-green">
                  <div class="progress-bar" style="width:69%;">
@@ -79,7 +92,7 @@
                 <ul class="timeline-list">
                    <!-- Single Experience -->
                    <li>
-                      <div class="timeline_content">
+                      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="timeline_content">
                          <span>15 Jan 2017</span>
                          <h1>Student</h1>
                          <h4>Start of Highschool</h4>
@@ -100,7 +113,7 @@
                    </li>
                    
                         <li>
-                      <div class="timeline_content">
+                      <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="timeline_content">
                         <span>11 Feb 2022</span>
                         <h1>Assistant</h1>
                          <h4>Start of Job</h4>
@@ -113,7 +126,7 @@
                    </li>
                    
                    <li>
-                      <div class="timeline_content">
+                      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="timeline_content">
                         <span>27 Sep 2022</span>
                         <h1>Web Dev Graduate</h1>
                          <h4>Start of Studies</h4>
@@ -122,6 +135,14 @@
                          <span>31 Mar 2023</span>
                          <h4>End of Studies</h4>
                          <p>My time at Life Choices Academy ended when I completed the Full-Stack Web development course.</p>
+                      </div>
+                   </li>
+                   <li>
+                      <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="timeline_content">
+                        <span>Apr 2023 - Present</span>
+                        <h1>Assistant Lecturer / Studio Intern</h1>
+                         <h4>Start of Role</h4>
+                         <p>I am currently serving as a technical lecturer assistant at <span class="font-weight-bold text-danger">Life Choices Academy </span> while simulteneously upskilling in <span class="font-weight-bold text-danger">Life Choices Studio </span>. My duties at the LC Academy include assisting with the lessons, planning schedules, keeping up to date with the relevant study material as well as guideing students in writing code and doing projects. At the same time I am learning a multitude of new technology's in LC Studio.</p>
                       </div>
                    </li>
                 </ul>
@@ -135,6 +156,9 @@
 <script>
 export default {
   name: 'resume',
+  mounted() {
+    AOS.init()
+  },
   data() {
     return {
         downloadURL: 'https://drive.google.com/file/d/1NRH0kG9t8d6ew4CfxjlTQ8r35Yy187L_/view?usp=share_link'
@@ -198,6 +222,12 @@ border-top-color: purple;
 }
 .progress.orange .progress-bar:before{
 border-top-color: orangered;
+}
+.progress.w-blue .progress-bar:before{
+border-top-color: #21759b;
+}
+.progress.r-blue .progress-bar:before{
+border-top-color: #61dbfb;
 }
 .progress.yellow .progress-bar:before{
 border-top-color: #ecb82d;

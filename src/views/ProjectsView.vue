@@ -9,7 +9,7 @@
                                 <div class="card-body border border-warning border-4">
                                   <h5 class="card-title">{{project.name}}</h5>
                                   <p class="card-text">{{project.description}}</p>
-                                  <a :href=project.netlify class="btn btn-primary m-3"  target="_blank">Netlify</a>
+                                  <a :href=project.hosted class="btn btn-primary m-3"  target="_blank">Hosted</a>
                                   <a :href=project.github class="btn btn-primary m-3"  target="_blank">Github</a>
                                 </div>
                           </div>
@@ -46,7 +46,7 @@ export default {
                     name: "Manga Site",
                     description: "A E-commerce project using VUEJS and NODE JS and API Functionality",
                     image: "https://i.postimg.cc/yxs7RY5z/Screenshot-2023-03-28-161820.png",
-                    netlify: "https://mangako-deno-rautenbach.netlify.app/",
+                    hosted: "https://mangako-deno-rautenbach.netlify.app/",
                     github: "https://github.com/Simp4Hitagi/Capstone-Mangako"
                 },
                 {
@@ -54,7 +54,7 @@ export default {
                     name: "Figures Site",
                     description: "A collaborative E-commerce project using VUEJS and NODE JS",
                     image: "https://i.postimg.cc/DwMsPtnN/Screenshot-2023-03-28-162401.png",
-                    netlify: "",
+                    hosted: "",
                     github: "https://github.com/Simp4Hitagi/Otaku"
                 },
                 {
@@ -62,7 +62,7 @@ export default {
                     name: "Calculator",
                     description: "A basic calculator app built using HTML, CSS, Bootstrap and Javascript",
                     image: "https://i.postimg.cc/fbN8V6q4/calculator.png",
-                    netlify: "https://deno-calculator.netlify.app",
+                    hosted: "https://deno-calculator.netlify.app",
                     github: "https://github.com/Simp4Hitagi/My_Calculator"
                 },
                 {
@@ -70,7 +70,7 @@ export default {
                     name: "Vue Portfolio",
                     description: "A updated of the current portfolio project using Vue, JS, HTML and CSS ",
                     image: "https://i.postimg.cc/gcTMrB6g/Screenshot-2023-03-28-162020.png",
-                    netlify: "https://deno-vue-portfolio.netlify.app/",
+                    hosted: "https://deno-vue-portfolio.netlify.app/",
                     github: "https://github.com/Simp4Hitagi/vue-portfolio"
                 },
                 {
@@ -78,7 +78,7 @@ export default {
                     name: "Point of Sale System",
                     description: "E-Commerce ste with a CRUD system primarily built using JS, HTML and CSS",
                     image: "https://i.postimg.cc/cH96MZhK/pos-system.png",
-                    netlify: "https://deno-pos.netlify.app/index.html",
+                    hosted: "https://deno-pos.netlify.app/index.html",
                     github: "https://github.com/Simp4Hitagi/PointOfSale_System"
                 },
                 {
@@ -86,7 +86,7 @@ export default {
                     name: "Tribute Page",
                     description: "A basic page to showcase cool art using mainly HTML and CSS",
                     image: "https://i.postimg.cc/3Jk3TwkS/tribute-page.png",
-                    netlify: "https://deno-tributepage.netlify.app",
+                    hosted: "https://deno-tributepage.netlify.app",
                     github: "https://github.com/Simp4Hitagi/excercise"
                 },
                 {
@@ -94,7 +94,7 @@ export default {
                     name: "Portfolio",
                     description: "My first Portfolio project using HTML, CSS and Bootstrap",
                     image: "https://i.postimg.cc/cJ2qxRPr/portfolio.png",
-                    netlify: "https://deno-portfolio1.netlify.app",
+                    hosted: "https://deno-portfolio1.netlify.app",
                     github: "https://github.com/Simp4Hitagi/Final_Portfolio_Project"
                 },
 
@@ -102,11 +102,19 @@ export default {
                 
                 {
                     id: 8,
-                    name: "Animation Site",
-                    description: "A animation project using HTML and CSS as basic practice",
-                    image: "https://i.postimg.cc/YqgRP8Bp/Screenshot-2023-01-14-133534.png",
-                    netlify: "animation-deno.netlify.app",
-                    github: "https://github.com/Simp4Hitagi/animation"
+                    name: "Python Projects",
+                    description: "A few projects I created in Python while i was self-studying.",
+                    image: "https://i.postimg.cc/q7QxMh26/python-logo.png",
+                    hosted: "",
+                    github: "https://github.com/Simp4Hitagi/Python-Projects"
+                },
+                {
+                    id: 9,
+                    name: "News API Site",
+                    description: "A website that pulls data from a free NewsAPI using Recat.JS",
+                    image: "https://i.postimg.cc/tJKk6KrK/Screenshot-2.png",
+                    hosted: "https://bnry-test.vercel.app",
+                    github: "https://github.com/Simp4Hitagi/BNRY-Test"
                 },
 
             ]
@@ -116,4 +124,42 @@ export default {
 </script>
 <style scoped>
     
+.card-body::after {
+  height: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 2.5px solid gold !important; 
+  -webkit-transition: all 0.35s;
+	-moz-transition: all 0.35s;
+  -o-transition: all 0.35s;
+	transition: all 0.35s;
+}
+
+.card-body::before,
+.card-body::after {
+  background: lemonchiffon;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+.card:hover {
+  color: #000;
+}
+
+.card:hover .card-body:after {
+  height: 100%;
+  color: #fff;
+}
+
+.card-body {  
+  position: relative;
+  z-index: 0;
+  -webkit-transition: all 0.35s ease;
+	-moz-transition: all 0.35s ease;
+  -o-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+}
+
 </style>

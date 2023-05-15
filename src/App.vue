@@ -12,7 +12,10 @@ import Footer from './components/Footer.vue';
 export default {
   components: {
     Navbar, Footer
-  }
+  },
+  mounted() {
+    AOS.init()
+  },
 }
 </script>
 
