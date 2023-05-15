@@ -8,13 +8,6 @@
           </div>
           <div class="socials my-5">
             <ul class="list-unstyled">
-              
-              <!-- <li class="fw-bold">
-                <a href="#" class="fb-ic" target="_blank">
-                   <img loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADhUlEQVR4nO2ZT4hVVRzHP5WTqOQiNy0UAsGFG8lVuJFU3GQrUchNtCjdxKihhqNpKqXhzHNMxMFm7i3BYEAo/EM66jhzjv9wIFGRFKU/lhsLXEiBf+Yr97zxed+8e59N99w374E/+O7u4vM5v/PO/M4ZeF4NWAqZr5C/FTCXRiyFtCtECrisDbxIo5UCepxAMe/SaKWAP2IC19VBE41S2sdEBQzGBKKt9AGNUgp4swy+mD/VzTgaoRTyfoJA1IXlZd+JF1TgpAp8Tz2VQr5MEbijr3ml9F0bi1VALq3Mpl5KIYcSBYoSLe6bbl5SG1dLAgVOUi+lkJupAiF3tZdXVWBpDP6ZXVC03SxbZbils7yeH3w34xTyqIqA1MU2tXGrQiClC4rgDTtlkYvhvfwEvuGNqvBRtvFQ2yvgE7ugaKtZOkvwRYEt+Ql0saQqfCfSSqTPUgRiXRiC/7YMvpju/AQCNlcV+BypGWk5qtYFXeFlWQ4kwEcd+Ck/gZADqfB7kVYMCUTZmCKwg1My/JAIb13uRb+LfAQCrqYKbIrBp3WhHelIKrhKOcdk//AdNCnkfiJ8xxBw87B8+j/gLdJp5vgX6GR66upvSICPd2En0o//Ed66LPMvELAwEX53yuo/SXQiHR0RvGRozUNgfaLAuirwa5AOjxDeuhzMQ2B/BfxXVeA/GfG2USzX/AuEXBw2uElrU+DXZoKXLA804PGWF13cFfBPmUAhBb4F6VgmeLn0M82fQMjUitVfkwC/HqnHA7x1R+nb/gS6eKdMYHsCfPSX94QneOuywp9AwOrYuCytyh1eMuz2JxASxMblcvjNSL2e4a0TOO5PIOB82bj8BH4L0qkc4K3L737goxtTdFWMj8tRvkDqyw1eMgzqKBOyC+xjcsW4vNUdc/nB25LEDF8v0U/H5dYawVsnsMiHQHNpXC4MtbYW8NalJbtAwB43Lu+qObxkCbML7OJndfBoFOAlw5nsAt/xW83BbUngr+wChnmyXBkFgevqZ0FmAScxQJMMzTLcrQH4PRk26ghjvcCXiZxnkgztsjzMYbsMuoeuXl7zDl4h0sdMWYxH+As6zazcwRMeZRfJ8GsG+NsyfCiN4n86NcB4t2ct/45gxe+7rXiOidRLqY8pKY+1w9OjfqZTryXLWzJcSjwWfV4T8yz1MkaWj2S4IcMvMnzs9ZXheVE/9RhWKOxUDYbwOwAAAABJRU5ErkJggg==">
-                </a>
-                Portfolio
-              </li> -->
               <li class="fw-bold">
                 <!-- Github -->
                 <a href="https://github.com/Simp4Hitagi" class="tw-ic" target="_blank">
@@ -37,17 +30,39 @@
                   </a>
                  Lifestyle
                 </li>
-
-
             </ul>
           </div>      
         </div>
         <div class="col-5 mx-auto">
           <img src="https://i.postimg.cc/MTQDqhtg/IMG-3354-3-removebg-preview.png" class="lazy" alt="">
         </div>
-      </div>
+        <h2 class="display-1 font-weight-bold animate__animated animate__heartBeat">Preview My Projects</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <iframe src="https://mangako-nipon.web.app/" height="1000" title="description" class="mx-auto"></iframe>
+    </div>
+    <div class="carousel-item">
+      <iframe src="https://deno-calculator.netlify.app/" height="1000" title="description"></iframe>
+    </div>
+    <div class="carousel-item">
+      <iframe src="https://deno-pos.netlify.app/index.html" height="1000" title="description"></iframe>
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark rounded-3" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark rounded-3" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+    </div>
+  </div>
+  <br/>
+  <br/>
 </template>
 <script>
 export default {
@@ -76,5 +91,12 @@ export default {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orangered }
+}
+
+iframe {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display:block;
 }
 </style>
