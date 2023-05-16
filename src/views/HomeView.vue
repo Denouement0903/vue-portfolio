@@ -11,7 +11,7 @@
               <li class="fw-bold">
                 <!-- Github -->
                 <a href="https://github.com/Simp4Hitagi" class="tw-ic" target="_blank">
-                    <img loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACVUlEQVR4nO2ZTWsUQRCGO4lehUCURFO1y+pBEPSQo6BXQUmqNsxBvEp+gAdzDOrVg4IYxIMifuRfBSGeIrJO9SZExJZ2JmFol52P3emZCVNQMAzbve8zXV01Na1Ua6211pprRqkZzbgpjN+s22t7TzVGPMErzWiSLgRvzZaaVU0Ur5sAYVLE1x4i7HeuCqNOA/gHwbhdmz1hNlbODggu2+uwv3yrURAmUHOa8Itm/DEkXIkg8KZmCDNBUIXhFImHTwlBzYEwt9UZTbgzQtC+rF+6bn+juXtD1uGahdIEz4Xwdy3Cydgnz/h5zFPdP+h3O+44IXha+Z4wUdh8TAuLwV2cd8ceBD2sdGObQM0JwYcscR3eW1pwx3+/c+VcZdnJbKlZYXyfRUC8MR+5c9hUW0mKNZH4d1nFxwC/7Avcifg4pLzXCaPUjJ0oj/ikH88jBF8P+9jzmmJN9Er8uqj4JEAsxh+EiZ78m0nEuwBRWMDu4VqnW3qd0Iybk4ofBXAMoRmX8tYJndhTqRZ3UaUARBC9C3nrhBDu1QZgVJ0Ig8XzUwMoM4Rif+j+55BwY+x8a/jYW/pMBSAYCC3ft72EdWF8oBl+TrUmTANizArEYQFH1ksraFn73KIA2kevUGQlhPGPZnxxAkDwMr6XZ47t6b0P5YQQhifuHMLwrBLxhSCCzqJybLgKFysTnxeiSJ7X3rqybBC587x47YvTIHzkeR8rUXqen9QmrRNSh++kRSFqIb4oRK3En5rP640/4DgVR0z/HfIR7lm3zUjlZwGttdaaqqX9BXBaAh7aBFdkAAAAAElFTkSuQmCC">
+                    <img loading="lazy" width="51" height="51" src="https://img.icons8.com/glyph-neue/64/github.png">
                 </a>
                 Github
               </li>
@@ -30,13 +30,26 @@
                   </a>
                  Lifestyle
                 </li>
+                <li>
+                  <a href="#preview" >
+                    <div class="container-scroll">
+              <div class="field">
+                
+                <div class="scroll"></div>
+                
+              </div>
+            </div>
+
+                  </a>
+
+          </li>
             </ul>
-          </div>      
-        </div>
+          </div>
+        </div>      
         <div class="col-5 mx-auto">
           <img src="https://i.postimg.cc/MTQDqhtg/IMG-3354-3-removebg-preview.png" class="lazy" alt="">
         </div>
-        <h2 class="display-1 font-weight-bold animate__animated animate__heartBeat">Preview My Projects</h2>
+        <h2 class="display-1 font-weight-bold" id="preview">Preview My Projects</h2>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -70,6 +83,95 @@ export default {
 }
 </script>
 <style scoped>
+.container-scroll {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  margin-left: 15rem;
+  margin-top: 5rem;
+}
+
+.field {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+}
+.scroll {
+	width: 60px;
+	height: 60px;
+	border: 4px solid black;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1.5s infinite;
+	-webkit-animation: down 1.5s infinite;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 18px;
+		height: 18px;
+		border-left: 4px solid black;
+  	border-bottom: 4px solid black;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(15px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@keyframes scroll {
+	0% {
+		height: 40px;
+	}
+	30% {
+		height: 70px;
+	}
+	60% {
+		height: 40px;
+	}
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		height: 40px;
+	}
+	30% {
+		height: 70px;
+	}
+	60% {
+		height: 40px;
+	}
+}
+
+
+
+
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid gold; /* The typwriter cursor */

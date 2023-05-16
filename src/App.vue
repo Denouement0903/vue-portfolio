@@ -34,7 +34,9 @@ nav {
 /* nav a.router-link-active {
   color: #20de12;
 } */
-
+::-webkit-scrollbar{
+  display:none
+}
 body {
   background-image: url('https://i.postimg.cc/VLmyvcpq/HD-wallpaper-yellow-wave-background-yellow-abstraction-wave-waves-background-creative-yellow-backgro.jpg');
   background-repeat: no-repeat;
