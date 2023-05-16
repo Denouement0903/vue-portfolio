@@ -83,11 +83,11 @@ export default {
                 },
                 {
                     id: 6,
-                    name: "Tribute Page",
-                    description: "A basic page to showcase cool art using mainly HTML and CSS",
-                    image: "https://i.postimg.cc/3Jk3TwkS/tribute-page.png",
-                    hosted: "https://deno-tributepage.netlify.app",
-                    github: "https://github.com/Simp4Hitagi/excercise"
+                    name: "WordPress E-Commerce site",
+                    description: "A collabaritive E-Commerce site built using WordPress",
+                    image: "https://i.postimg.cc/tRB8VCRV/Screenshot-4.png",
+                    hosted: "https://dev-triptronik.pantheonsite.io/",
+                    github: ""
                 },
                 {
                     id: 7,

@@ -59,7 +59,7 @@
       <iframe src="https://deno-calculator.netlify.app/" height="1000" title="description"></iframe>
     </div>
     <div class="carousel-item">
-      <iframe src="https://deno-pos.netlify.app/index.html" height="1000" title="description"></iframe>
+      <iframe src="https://dev-triptronik.pantheonsite.io/" height="1000" title="description"></iframe>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
