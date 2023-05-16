@@ -50,16 +50,17 @@
           <img src="https://i.postimg.cc/MTQDqhtg/IMG-3354-3-removebg-preview.png" class="lazy" alt="">
         </div>
         <h2 class="display-1 font-weight-bold" id="preview">Preview My Projects</h2>
+        <h3 class="mx-auto display-3">Interact with my sites!</h3>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <iframe src="https://mangako-nipon.web.app/" height="1000" title="description" class="mx-auto"></iframe>
+      <iframe src="https://mangako-nipon.web.app/" height="1000" title="description" class="mx-auto border border-4 border-dark"></iframe>
     </div>
     <div class="carousel-item">
-      <iframe src="https://deno-calculator.netlify.app/" height="1000" title="description"></iframe>
+      <iframe src="https://deno-calculator.netlify.app/" height="1000" title="description" class="border border-4 border-dark"></iframe>
     </div>
     <div class="carousel-item">
-      <iframe src="https://dev-triptronik.pantheonsite.io/" height="1000" title="description"></iframe>
+      <iframe src="https://dev-triptronik.pantheonsite.io/" height="1000" title="description" class="border border-4 border-dark"></iframe>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
