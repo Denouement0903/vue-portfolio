@@ -22,27 +22,18 @@ export default {
 <style>
 @import url('https://fonts.cdnfonts.com/css/fox-on-the-run');
 #app {
+  background-color: black;
   font-family: 'Fox on the Run', sans-serif;
   font-size: 20px;
-  color: black;
+  color: white;
+  overflow: hidden;
 }
 
 nav {
   padding: 30px;
 }
 
-/* nav a.router-link-active {
-  color: #20de12;
-} */
 ::-webkit-scrollbar{
   display:none
-}
-body {
-  background-image: url('https://i.postimg.cc/VLmyvcpq/HD-wallpaper-yellow-wave-background-yellow-abstraction-wave-waves-background-creative-yellow-backgro.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
-  overflow-x: auto;
-
 }
 </style>

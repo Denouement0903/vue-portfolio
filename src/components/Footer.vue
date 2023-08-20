@@ -1,7 +1,7 @@
 <template>
   <div class="footer"> 
     <!-- Footer -->
-<footer class="text-center text-lg-start bg-warning opacity-75 text-dark">
+<footer class="text-center text-lg-start bg-dark opacity-75 text-light">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center text- justify-content-lg-center p-4 border-bottom">
     <!-- Left -->
