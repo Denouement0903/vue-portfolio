@@ -23,7 +23,7 @@
 	<main class="min-vh-100">
 		<!-- Home-->
 		<section id="home" class="home my-5 py-5">
-		  <div class="container-fluid-mouse" style="height: 950px">
+		  <div class="container-fluid-mouse" style="height: 800px">
 			<div class="row d-flex align-items-center text-center field">
 				<h1 class="display-1 intro my-5">Welcome</h1>
 				  <div class="mouse"></div>
@@ -403,7 +403,7 @@ links.forEach(link => {
     scrollFunction() {
       const landingPageElement = document.getElementsByClassName("home")[0];
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        landingPageElement.style.backgroundImage = "url('https://i.postimg.cc/mZvPzvWg/Dark-Woods-Wallpaper.jpg')";
+        // landingPageElement.style.backgroundImage = "url('https://i.postimg.cc/mZvPzvWg/Dark-Woods-Wallpaper.jpg')";
         // landingPageElement.style.fontSize = "30px";
       } else {
         landingPageElement.style.backgroundImage = "url('https://i.postimg.cc/G3fCHWfS/forest20.jpg')";
