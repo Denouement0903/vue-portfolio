@@ -37,7 +37,7 @@
 			<div class="p-5 bg-image"></div>
 			<!-- Background image -->
 			
-			<div class="card mx-4 mx-md-5 shadow-5-strong" style=" margin-top: -100px; background: hsla(0, 0%, 100%, 0.8);backdrop-filter: blur(30px); ">
+			<div class="text-dark mx-4 mx-md-5 shadow-5-strong" style=" margin-top: -100px; background: hsla(0, 0%, 100%, 0.8);backdrop-filter: blur(30px); ">
 			  <div class="info">
 				<h1 class="display-1">Who am I?</h1>
 				<p class="lead text-black my-5">I am an aspiring Web Developer with a keen interest in building projects to solve a need.
@@ -54,13 +54,13 @@
 		<div class="carousel-inner">
 		  <h3 class="display-3">DENO RAUTENBACH</h3>
 		  <div class="carousel-item active" data-bs-interval="10000">
-			<img src="https://i.postimg.cc/k5cLyQhJ/DSC-0599-3-removebg-preview.png" class="d-block w-50 mx-auto" alt="...">
+			<img src="https://i.postimg.cc/1zH5sVHc/DSC-3597-removebg-preview-removebg-preview.png" class="d-block w-50 mx-auto" alt="...">
 		  </div>
 		  <div class="carousel-item" data-bs-interval="2000">
 			<img src="https://i.postimg.cc/rsFtBJQh/DSC-0612-2-removebg-preview.png" class="d-block w-75 mx-auto" alt="...">
 		  </div>
 		  <div class="carousel-item">
-			<img src="https://i.postimg.cc/C1kPQFzh/DSC-0601-2-removebg-preview.png" class="d-block w-50 mx-auto" alt="...">
+			<img src="https://i.postimg.cc/SQwXZ8tJ/Microsoft-Teams-image-3-removebg-preview.png" class="d-block w-50 mx-auto" alt="...">
 		  </div>
 		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
 		  <span class="carousel-control-prev-icon bg-dark rounded-3" aria-hidden="true"></span>
@@ -75,7 +75,7 @@
 				</div>
 			  </div>
 				  <!-- button to services/form -->
-				  <button type="button" class="btn btn-outline-dark my-3 text-dark"><a style="text-decoration:none" href="#contact">Let's Talk</a></button>
+				  <button type="button" class="btn btn-outline-dark my-3"><a style="text-decoration:none" class="text-light" href="#contact">Let's Talk</a></button>
 				  <!-- list group -->
 				  <h1 class="shadow">Personal Details</h1>
 				  <ul class="list-group border-2 border-dark list-unstyled gap-2">
@@ -157,10 +157,10 @@
 			   </div>
 			   <div class="col-md-6 my-5">
 				<h2 class="text-center display-1 text-light">SKILLS</h2>
-				<img class="w-75 rounded-5 mx-auto my-5 d-block" src="https://i.postimg.cc/x1whqSPr/jay-versace-typing.gif" alt="">
+				<img class="w-75 rounded-5 mx-auto my-5 d-block" src="https://i.postimg.cc/jdGp9qzx/lil-nas-x-typing.gif" alt="">
 				<h4 class="display-5 text-center text-light">Download my CV</h4>
-				<button type="button" class="btn btn-danger rounded-2 mx-auto d-block my-5">
-				  <a target="_blank" class="text-light" :href="downloadURL" download>Download</a>
+				<button type="button" class="btn btn-light rounded-2 mx-auto d-block my-5 text-black">
+				  <a target="_blank" class="text-dark" :href="downloadURL" download>Download</a>
 				  </button>
 			   </div>
 			</div>
@@ -596,7 +596,6 @@ img {
   background-size: cover;
   object-fit: cover;
   height: 450px;
-  box-shadow: 0px 2px 2px 0px rgb(255, 255, 255) inset;
 }
 
 .pt-100{
