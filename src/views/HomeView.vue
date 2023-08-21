@@ -403,7 +403,7 @@ links.forEach(link => {
     scrollFunction() {
       const landingPageElement = document.getElementsByClassName("home")[0];
       if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-        // landingPageElement.style.backgroundImage = "url('https://i.postimg.cc/mZvPzvWg/Dark-Woods-Wallpaper.jpg')";
+        landingPageElement.style.backgroundImage = "url('https://i.postimg.cc/mZvPzvWg/Dark-Woods-Wallpaper.jpg')";
         // landingPageElement.style.fontSize = "30px";
       } else {
         landingPageElement.style.backgroundImage = "url('https://i.postimg.cc/G3fCHWfS/forest20.jpg')";
@@ -572,6 +572,7 @@ links.forEach(link => {
   text-shadow: 2px 2px 0px #000000;
 }
 .home{
+  background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
