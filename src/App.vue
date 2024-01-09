@@ -27,6 +27,11 @@ export default {
   font-size: 20px;
   color: white;
   overflow: hidden;
+  cursor: crosshair;
+}
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(69, 69, 69);
 }
 
 nav {
